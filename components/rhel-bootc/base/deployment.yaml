@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rhel-bootc
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/rhel-bootc/rhel-bootc@sha256:b8c2b9f46d549bffa66f2eaba823a9edc47f009d29406bb9c89c2422e48e5544
+      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/rhel-bootc/rhel-bootc@sha256:5502cc247c88aee91673c86ce1726fbc19e937db7ddd7515dd3b006ba5179f65
         imagePullPolicy: Always
         name: container-image
         resources: {}
